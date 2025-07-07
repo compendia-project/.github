@@ -22,10 +22,10 @@ Transforms the organized facts into interactive, data-driven stories presented t
 
 ## 🏗️ System Components
 
-### 🔧 [Backend](../compendia-backend/) (compendia-backend)
+### 🔧 [Backend](../../compendia-backend/) (compendia-backend)
 A Python FastAPI-based service implementing the four-stage processing pipeline with AI-driven content analysis and story generation capabilities.
 
-### 🎨 [Frontend](../compendia-frontend/) (compendia-frontend)
+### 🎨 [Frontend](../../compendia-frontend/) (compendia-frontend)
 A modern Svelte-based web application featuring scrollytelling presentation with interactive data visualizations and progressive story revelation.
 
 ## 🎯 Use Cases
