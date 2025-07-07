@@ -1,52 +1,32 @@
-# Compendia Project 📊
+# Compendia 📊
 
-**Automated Data Story Generation from Online Article Collection**
+**Automated Visual Storytelling Generation from Online Article Collection**
 
-Compendia is an intelligent system that automatically generates compelling data stories by crawling, analyzing, and synthesizing information from online articles. The project combines advanced AI techniques with modern web technologies to transform raw web content into structured, narrative-driven data visualizations.
+Compendia is an automated system that analyzes online articles in response to a user's query and generates coherent data stories tailored to the user's informational needs. Data storytelling has emerged as a powerful medium for transforming complex information into engaging narratives that enhance understanding. While previous work has automated storytelling based on structured data like tables, Compendia explores the opportunities of converting unstructured text from online articles into compelling data stories.
 
-## 🚀 Project Overview
+## 🚀 Framework Overview
 
-The Compendia Project consists of two main components:
+Compendia's framework consists of four distinct stages that transform unstructured online articles into interactive data stories:
+
+### 1. 🔍 Online Article Retrieval
+Retrieves relevant online articles based on the user's informational needs using advanced search algorithms and web crawling techniques.
+
+### 2. 📊 Data Fact Extraction
+Analyzes unstructured text to identify and extract key facts and data points using AI-powered natural language processing and information extraction techniques.
+
+### 3. 🗂️ Fact Organization
+Structures and groups the extracted facts into meaningful clusters, creating coherent thematic organizations that support narrative development.
+
+### 4. 📖 Presentation Generation
+Transforms the organized facts into interactive, data-driven stories presented through **Scrollytelling** - a technique that gradually unfolds the story as users scroll through the page.
+
+## 🏗️ System Components
 
 ### 🔧 Backend (compendia-backend)
-A Python FastAPI-based service that handles the core data processing pipeline:
-
-- **Article Crawling**: Automated collection of articles from specified websites
-- **Fact Extraction**: AI-powered extraction and filtering of relevant information
-- **Data Processing**: Validation, refinement, and organization of extracted facts
-- **Story Generation**: Intelligent clustering and narrative creation
-- **Visualization**: Automated generation of charts, wordclouds, and visual elements
-
-**Key Features:**
-- Multi-stage processing pipeline with logging and error handling
-- Concurrent processing for improved performance
-- Flexible search query system with country-specific results
-- RESTful API endpoints for frontend integration
-- Comprehensive prompt engineering for AI-driven content generation
+A Python FastAPI-based service implementing the four-stage processing pipeline with AI-driven content analysis and story generation capabilities.
 
 ### 🎨 Frontend (compendia-frontend)
-A modern Svelte-based web application that provides an intuitive interface:
-
-- **Interactive UI**: Clean, responsive design for story exploration
-- **Data Visualization**: Integration with D3.js and Chart.js for dynamic charts
-- **Real-time Updates**: Live preview of generated stories
-- **Modern Stack**: Built with SvelteKit, Vite, and modern web technologies
-
-## 🛠️ Technology Stack
-
-**Backend:**
-- Python 3.x with FastAPI
-- AI/ML integration for content processing
-- Concurrent processing with ThreadPoolExecutor
-- CSV/JSON data handling
-- CORS-enabled API
-
-**Frontend:**
-- SvelteKit framework
-- D3.js for data visualization
-- LayerCake for chart components
-- Vite for build tooling
-- Modern CSS with autoprefixer
+A modern Svelte-based web application featuring scrollytelling presentation with interactive data visualizations and progressive story revelation.
 
 ## 🎯 Use Cases
 
@@ -54,23 +34,18 @@ A modern Svelte-based web application that provides an intuitive interface:
 - **Content Creation**: Transform complex topics into engaging, data-driven narratives
 - **Business Intelligence**: Extract actionable insights from web-based information
 
-## 🌟 Key Capabilities
+## 🎯 Key Innovation
 
-1. **Intelligent Content Extraction**: Advanced AI algorithms identify and extract relevant facts from web articles
-2. **Automated Fact Validation**: Multi-stage validation ensures data accuracy and reliability
-3. **Smart Clustering**: Groups related information to create coherent narrative structures
-4. **Visual Story Generation**: Automatically creates charts, graphs, and visual elements
-5. **Narrative Synthesis**: Generates human-readable stories from structured data
-6. **Scalable Architecture**: Handles multiple concurrent requests with efficient processing
+Compendia addresses the gap in automated data storytelling by focusing on **unstructured text sources**. Online articles provide rich, contextually detailed information from various perspectives, making them an ideal source for automated data story generation. This approach enables the creation of comprehensive narratives that would be time-consuming to produce manually, requiring expertise in data analysis, storytelling, and design.
 
-## 📈 Workflow
+## 📈 Processing Workflow
 
-1. **Query Input**: User provides search terms and target websites
-2. **Article Collection**: System crawls and collects relevant articles
-3. **Content Processing**: AI extracts, validates, and refines factual information
-4. **Data Organization**: Facts are clustered and organized into coherent themes
-5. **Story Generation**: Narrative structures are created with supporting visualizations
-6. **Presentation**: Final story is rendered with interactive elements and visual components
+1. **User Query**: User submits informational query defining their data story needs
+2. **Article Retrieval**: System identifies and retrieves relevant online articles
+3. **Fact Extraction**: AI analyzes unstructured text to extract key data facts
+4. **Fact Organization**: Extracted facts are structured and clustered into meaningful groups
+5. **Story Generation**: Organized facts are transformed into coherent narratives
+6. **Scrollytelling Presentation**: Interactive story unfolds progressively as users scroll
 
 ---
 
