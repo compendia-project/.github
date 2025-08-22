@@ -1,8 +1,8 @@
-# Compendia 📊
+# Compendia 
 
 ![Compendia Teaser](teaser.png)
 
-**Automated Visual Storytelling Generation from Online Article Collection**
+<span style="color: #2E86AB;">**Compendia: Automated Visual Storytelling Generation from Online Article Collection**</span>
 
 Compendia is an automated system that analyzes online articles in response to a user's query and generates coherent data stories tailored to the user's informational needs. Data storytelling has emerged as a powerful medium for transforming complex information into engaging narratives that enhance understanding. While previous work has automated storytelling based on structured data like tables, Compendia explores the opportunities of converting unstructured text from online articles into compelling data stories.
 
