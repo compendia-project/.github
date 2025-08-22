@@ -1,5 +1,7 @@
 # Compendia 📊
 
+![Compendia Teaser](teaser.png)
+
 **Automated Visual Storytelling Generation from Online Article Collection**
 
 Compendia is an automated system that analyzes online articles in response to a user's query and generates coherent data stories tailored to the user's informational needs. Data storytelling has emerged as a powerful medium for transforming complex information into engaging narratives that enhance understanding. While previous work has automated storytelling based on structured data like tables, Compendia explores the opportunities of converting unstructured text from online articles into compelling data stories.
@@ -28,11 +30,6 @@ A Python FastAPI-based service implementing the four-stage processing pipeline w
 ### 🎨 [Frontend](../../compendia-frontend/) (compendia-frontend)
 A modern Svelte-based web application featuring scrollytelling presentation with interactive data visualizations and progressive story revelation.
 
-## 🎯 Use Cases
-
-- **Market Intelligence**: Generate insights from industry reports and news
-- **Content Creation**: Transform complex topics into engaging, data-driven narratives
-- **Business Intelligence**: Extract actionable insights from web-based information
 
 ## 🎯 Key Innovation
 
